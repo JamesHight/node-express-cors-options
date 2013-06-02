@@ -1,6 +1,6 @@
 {
   "name": "express-cors-options",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create a catch all for responding to CORS OPTIONS method requests",
   "main": "index.js",
   "dependencies": {

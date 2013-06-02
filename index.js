@@ -7,7 +7,7 @@ module.exports = function(options) {
 		headers: 'Content-Type, Authorization, Content-Length, X-Requested-With, X-HTTP-Method-Override'
 	}, options);
 
-	function(req, res, next) {
+	return function(req, res, next) {
 		if (req.method === 'OPTIONS') {
 			res.setHeader('Access-Control-Allow-Origin', options.origin);
 			res.setHeader('Access-Control-Allow-Methods', options.methods);
