@@ -1,6 +1,6 @@
 {
   "name": "express-cors-options",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Create a catch all for responding to CORS OPTIONS method requests",
   "main": "index.js",
   "dependencies": {
@@ -28,7 +28,7 @@
   "author": "James Hight",
   "licenses": [
     {
-      "type": "MIT",
+      "type": "Apache 2.0",
       "url": "https://github.com/JamesHight/node-express-cors-options/blob/master/LICENSE"
     }
   ],
